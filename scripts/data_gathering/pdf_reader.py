@@ -4,8 +4,14 @@ import tabula
 import json
 import os
 import warnings
+import logging
 
+# silencing warinings
 warnings.simplefilter('ignore')
+
+# silencing logging from tabula
+logging.getLogger("tabula.util").disabled = True
+logging.getLogger("tabula.backend").disabled = True
 
 # global variables
 PATH = pathlib.Path.cwd()
@@ -44,7 +50,7 @@ def read_normal_format(file_path):
     else:
         df = tabula.read_pdf(file_path, stream = True)[0]
     
-    print(file_path)
+    #print(file_path)
     fermate_list = []
     for i in range(len(df.iloc[:, 0])):
         if i > 2:
