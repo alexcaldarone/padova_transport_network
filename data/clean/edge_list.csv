@@ -79,8 +79,8 @@ padova via maroncelli, padova stanga, Linea 9
 padova stanga, padova via belzoni, Linea 9
 padova via belzoni, padova piazzale boschetti, Linea 9
 padova piazzale boschetti, padova ferrovia, Linea 9
-padova ferrovia, padova c. san garibaldi, Linea 9
-padova c. san garibaldi, padova largo europa, Linea 9
+padova ferrovia, padova corso garibaldi, Linea 9
+padova corso garibaldi, padova largo europa, Linea 9
 padova largo europa, padova via giotto, Linea 9
 padova via giotto, padova piazza mazzini, Linea 9
 padova piazza mazzini, padova via beato pellegrino, Linea 9
@@ -105,10 +105,10 @@ padova via montà, padova porta trento, Linea 11
 padova porta trento, padova via b.pellegrino, Linea 11 
 padova via b.pellegrino, padova via giotto, Linea 11 
 padova via giotto, padova largo europa, Linea 11 
-padova largo europa, padova riv. ponti romani, Linea 11 
-padova riv. ponti romani, padova riv. tito livio, Linea 11 
-padova riv. tito livio, padova riv. businello, Linea 11 
-padova riv. businello, padova prato della valle, Linea 11 
+padova largo europa, padova riv ponti romani, Linea 11 
+padova riv ponti romani, padova riv tito livio, Linea 11 
+padova riv tito livio, padova riv businello, Linea 11 
+padova riv businello, padova prato della valle, Linea 11 
 padova prato della valle, padova via manzoni, Linea 11 
 padova via manzoni, padova via crescini, Linea 11 
 padova via crescini, padova san osvaldo, Linea 11 
@@ -116,15 +116,15 @@ padova san osvaldo, padova via comino, Linea 11
 padova via comino, padova via tre garofani, Linea 11 
 padova via tre garofani, padova via de lazara, Linea 11 
 padova ferrovia, padova corso del popolo, Linea 12 
-padova corso del popolo, padova riv. ponti romani, Linea 12 
-padova riv. ponti romani, padova riv. tito livio, Linea 12 
-padova riv. tito livio, padova prato della valle, Linea 12 
+padova corso del popolo, padova riv ponti romani, Linea 12 
+padova riv ponti romani, padova riv tito livio, Linea 12 
+padova riv tito livio, padova prato della valle, Linea 12 
 padova prato della valle, padova via cavalletto, Linea 12 
 padova via cavalletto, padova via sorio, Linea 12 
 padova via sorio, padova aereoporto, Linea 12 
 padova aereoporto, padova brusegana, Linea 12 
 padova brusegana, padova tencarola o selvazzano, Linea 12 
-padova limena (via cabrelle), padova altichiero, Linea 13
+limena (via cabrelle), padova altichiero, Linea 13
 padova altichiero, padova via sacro cuore, Linea 13
 padova via sacro cuore, padova via a. da bassano, Linea 13
 padova via a. da bassano, padova cavalcavia stazione, Linea 13
@@ -228,10 +228,10 @@ padova via grassi, padova piazzale lestanga, Linea 42
 padova piazzale lestanga, padova via belzoni, Linea 42
 padova via belzoni, padova piazzale boschetti, Linea 42
 padova piazzale boschetti, padova stazione fs, Linea 42
-padova stazione fs, padova c. san del pololo, Linea 42
-padova c. san del pololo, padova piazza garibaldi, Linea 42
-padova piazza garibaldi, padova c. san milano, Linea 42
-padova c. san milano, padova piazzale savonarola, Linea 42
+padova stazione fs, padova corso del pololo, Linea 42
+padova corso del pololo, padova piazza garibaldi, Linea 42
+padova piazza garibaldi, padova corso milano, Linea 42
+padova corso milano, padova piazzale savonarola, Linea 42
 padova piazzale savonarola, padova via volturno, Linea 42
 padova via volturno, padova piazzale san giovanni, Linea 42
 padova piazzale san giovanni, padova via cernaiaia, Linea 42
@@ -246,12 +246,12 @@ padova piazzale boschetti, padova ospedale civ, Linea 43
 padova ospedale civ, padova via gattamelata, Linea 43
 padova via gattamelata, padova via cazzavana, Linea 43
 padova via cazzavana, padova prato della valle, Linea 43
-padova prato della valle, padova c. san via emanuele ii, Linea 43
-padova c. san via emanuele ii, padova via cavallotti, Linea 43
+padova prato della valle, padova corso via emanuele ii, Linea 43
+padova corso via emanuele ii, padova via cavallotti, Linea 43
 padova via cavallotti, padova bassanello, Linea 43
 padova bassanello, padova san da battaglia, Linea 43
-padova san da battaglia, padova s. agostino di alb, Linea 43
-padova s. agostino di alb, padova mandriola, Linea 43
+padova san da battaglia, padova san agostino di alb, Linea 43
+padova san agostino di alb, padova mandriola, Linea 43
 padova capolinea sud, padova chiesetta dei ferri, Linea 88
 padova chiesetta dei ferri, padova san tommaso, Linea 88
 padova san tommaso, padova albignasego, Linea 88
@@ -268,8 +268,8 @@ padova via dell'orna, padova via algarotti, Linea LIS
 padova via algarotti, padova capolinea sud tram, Linea LIS
 padova autostazione, padova piazzale boschetti, LineeE005V-E005Z
 padova piazzale boschetti, padova ospedale, LineeE005V-E005Z
-padova ospedale, padova pontecorvo via .facciolati, LineeE005V-E005Z
-padova pontecorvo via .facciolati, padova voltabarozzo, LineeE005V-E005Z
+padova ospedale, padova pontecorvo via facciolati, LineeE005V-E005Z
+padova pontecorvo via facciolati, padova voltabarozzo, LineeE005V-E005Z
 padova voltabarozzo, roncaglia, LineeE005V-E005Z
 roncaglia, ponte san nicolo', LineeE005V-E005Z
 ponte san nicolo', legnaro, LineeE005V-E005Z
@@ -391,13 +391,13 @@ tavo, molini bivio, LineaE038_2
 molini bivio, arsego, LineaE038_2
 padova autostazione, padova piazzale boschetti, LineeE009-E013V
 padova piazzale boschetti, padova ospedale, LineeE009-E013V
-padova ospedale, padova pontecorvo via .stoppato, LineeE009-E013V
-padova pontecorvo via .stoppato, padova bassanello, LineeE009-E013V
+padova ospedale, padova pontecorvo via stoppato, LineeE009-E013V
+padova pontecorvo via stoppato, padova bassanello, LineeE009-E013V
 padova bassanello, mandriola, LineeE009-E013V
 mandriola, ponte fabbrica, LineeE009-E013V
 ponte fabbrica, mezzavia, LineeE009-E013V
-mezzavia, battaglia via .maggiore, LineeE009-E013V
-battaglia via .maggiore, rivella, LineeE009-E013V
+mezzavia, battaglia via maggiore, LineeE009-E013V
+battaglia via maggiore, rivella, LineeE009-E013V
 rivella, monselice autostazione, LineeE009-E013V
 monselice autostazione, motta, LineeE009-E013V
 motta, este, LineeE009-E013V
@@ -413,8 +413,8 @@ castelbaldo, masi, LineeE009-E013V
 masi, badia autostazione, LineeE009-E013V
 padova autostazione, padova piazzale boschetti, LineaE002
 padova piazzale boschetti, padova ospedale, LineaE002
-padova ospedale, padova pontecorvo via .facciolati, LineaE002
-padova pontecorvo via .facciolati, padova voltabarozzo, LineaE002
+padova ospedale, padova pontecorvo via facciolati, LineaE002
+padova pontecorvo via facciolati, padova voltabarozzo, LineaE002
 padova voltabarozzo, roncaglia, LineaE002
 roncaglia, ponte san nicolo', LineaE002
 ponte san nicolo', legnaro, LineaE002
@@ -443,24 +443,24 @@ bv smichele, camposampiero istituto via puccini, LineaE098_3
 camposampiero istituto via puccini, camposampiero, LineaE098_3
 padova autostazione, padova stazione fs, LineaE026
 padova stazione fs, padova giardini dell'arena, LineaE026
-padova giardini dell'arena, padova c. san garibaldi, LineaE026
-padova c. san garibaldi, padova teatro verdi, LineaE026
-padova teatro verdi, padova c. san milano, LineaE026
-padova c. san milano, padova via vicenza, LineaE026
+padova giardini dell'arena, padova corso garibaldi, LineaE026
+padova corso garibaldi, padova teatro verdi, LineaE026
+padova teatro verdi, padova corso milano, LineaE026
+padova corso milano, padova via vicenza, LineaE026
 padova via vicenza, padova brentelle, LineaE026
 padova brentelle, rubano municipio, LineaE026
 rubano municipio, mestrino, LineaE026
 mestrino, bv. veggiano interna, LineaE026
 bv. veggiano interna, veggiano, LineaE026
-veggiano, s. antonio di veggiano, LineaE026
-s. antonio di veggiano, s. maria di veggiano, LineaE026
-s. maria di veggiano, montegalda, LineaE026
+veggiano, san antonio di veggiano, LineaE026
+san antonio di veggiano, san maria di veggiano, LineaE026
+san maria di veggiano, montegalda, LineaE026
 montegalda, montegaldella, LineaE026
 montegaldella, cervarese santa croce, LineaE026
 padova autostazione, padova piazzale boschetti, LineaE004
 padova piazzale boschetti, padova ospedale, LineaE004
-padova ospedale, padova pontecorvo via .facciolati, LineaE004
-padova pontecorvo via .facciolati, padova voltabarozzo, LineaE004
+padova ospedale, padova pontecorvo via facciolati, LineaE004
+padova pontecorvo via facciolati, padova voltabarozzo, LineaE004
 padova voltabarozzo, roncaglia, LineaE004
 roncaglia, ponte san nicolo', LineaE004
 ponte san nicolo', legnaro, LineaE004
@@ -479,8 +479,8 @@ treponti di correzzola, cive', LineaE004
 cive', bv. sista, LineaE004
 bv. sista, ca' bianca, LineaE004
 noale autostaz. actv, trebaseleghe via treviso, LineaE191
-trebaseleghe via treviso, s. ambrogio centro, LineaE191
-s. ambrogio centro, badoere sede bonaventura, LineaE191
+trebaseleghe via treviso, san ambrogio centro, LineaE191
+san ambrogio centro, badoere sede bonaventura, LineaE191
 badoere sede bonaventura, levada bar centrale, LineaE191
 levada bar centrale, torreselle via zanganili, LineaE191
 torreselle via zanganili, silvelle centro, LineaE191
@@ -511,11 +511,11 @@ bovolenta, bv. ronchi, LineaE035
 bv. ronchi, ronchi centro, LineaE035
 ronchi centro, casalserugo, LineaE035
 casalserugo, casalserugo ali', LineaE035
-casalserugo ali', s. giacomo, LineaE035
-s. giacomo, padova via .d'acquapendente, LineaE035
-padova via .d'acquapendente, padova istituto .gramsci, LineaE035
-padova istituto .gramsci, padova pontecorvo via .stoppato, LineaE035
-padova pontecorvo via .stoppato, padova ospedale, LineaE035
+casalserugo ali', san giacomo, LineaE035
+san giacomo, padova via d'acquapendente, LineaE035
+padova via d'acquapendente, padova istituto gramsci, LineaE035
+padova istituto gramsci, padova pontecorvo via stoppato, LineaE035
+padova pontecorvo via stoppato, padova ospedale, LineaE035
 padova ospedale, padova piazzale boschetti, LineaE035
 padova piazzale boschetti, padova autostazione, LineaE035
 cologna veneta, san sebastiano, LineaE046
@@ -561,8 +561,8 @@ cittadella ospedale, cittadella pta treviso, LineaE038
 cittadella pta treviso, cittadella consorzio, LineaE038
 padova autostazione, padova piazzale boschetti, LineaE003
 padova piazzale boschetti, padova ospedale, LineaE003
-padova ospedale, padova pontecorvo via .facciolati, LineaE003
-padova pontecorvo via .facciolati, padova voltabarozzo, LineaE003
+padova ospedale, padova pontecorvo via facciolati, LineaE003
+padova pontecorvo via facciolati, padova voltabarozzo, LineaE003
 padova voltabarozzo, roncaglia, LineaE003
 roncaglia, ponte san nicolo', LineaE003
 ponte san nicolo', agripolis, LineaE003
@@ -578,17 +578,17 @@ arzerello via cristo, piove di sacco ospedale, LineaE003
 piove di sacco ospedale, piove di sacco autostazione, LineaE003
 padova autostazione, padova piazzale boschetti, LineaE007
 padova piazzale boschetti, padova ospedale, LineaE007
-padova ospedale, padova pontecorvo via .stoppato, LineaE007
-padova pontecorvo via .stoppato, padova bassanello, LineaE007
+padova ospedale, padova pontecorvo via stoppato, LineaE007
+padova pontecorvo via stoppato, padova bassanello, LineaE007
 padova bassanello, mandriola, LineaE007
 mandriola, ponte fabbrica, LineaE007
 ponte fabbrica, mezzavia, LineaE007
-mezzavia, battaglia via .maggiore, LineaE007
-battaglia via .maggiore, rivella, LineaE007
+mezzavia, battaglia via maggiore, LineaE007
+battaglia via maggiore, rivella, LineaE007
 rivella, monselice autostazione, LineaE007
 monselice autostazione, pernumia, LineaE007
-pernumia, s. pietro viminario, LineaE007
-s. pietro viminario, vanzo, LineaE007
+pernumia, san pietro viminario, LineaE007
+san pietro viminario, vanzo, LineaE007
 vanzo, tribano, LineaE007
 tribano, pozzonovo capolinea, LineaE007
 bojon, campolongo maggiore, LineaE071_6
@@ -631,15 +631,15 @@ cervarese santa croce, fossona municipio, LineaE020
 fossona municipio, montemerlo ex cinema, LineaE020
 montemerlo ex cinema, bresseo, LineaE020
 bresseo, praglia, LineaE020
-praglia, s. biagio, LineaE020
-s. biagio, feriole, LineaE020
+praglia, san biagio, LineaE020
+san biagio, feriole, LineaE020
 feriole, tencarola, LineaE020
 tencarola, brusegana ospedale, LineaE020
-brusegana ospedale, padova porta s. giovanni, LineaE020
-padova porta s. giovanni, padova c. san milano, LineaE020
-padova c. san milano, padova teatro verdi, LineaE020
-padova teatro verdi, padova c. san garibaldi, LineaE020
-padova c. san garibaldi, padova giardini dell'arena, LineaE020
+brusegana ospedale, padova porta san giovanni, LineaE020
+padova porta san giovanni, padova corso milano, LineaE020
+padova corso milano, padova teatro verdi, LineaE020
+padova teatro verdi, padova corso garibaldi, LineaE020
+padova corso garibaldi, padova giardini dell'arena, LineaE020
 padova giardini dell'arena, padova stazione fs, LineaE020
 padova stazione fs, padova autostazione, LineaE020
 padova autostazione, padova fs j. avanzo, LineaE029
@@ -647,22 +647,22 @@ padova fs j. avanzo, padova arcella, LineaE029
 padova arcella, vigodarzere, LineaE029
 vigodarzere, saletto di vigodarzere, LineaE029
 saletto di vigodarzere, tavo, LineaE029
-tavo, s. maria di non, LineaE029
-s. maria di non, molini, LineaE029
+tavo, san maria di non, LineaE029
+san maria di non, molini, LineaE029
 molini, cavino centro, LineaE029
 cavino centro, arsego, LineaE029
-arsego, s. giorgio delle pertiche, LineaE029
-s. giorgio delle pertiche, s. giustina in colle, LineaE029
-s. giustina in colle, tremarende, LineaE029
+arsego, san giorgio delle pertiche, LineaE029
+san giorgio delle pertiche, san giustina in colle, LineaE029
+san giustina in colle, tremarende, LineaE029
 tremarende, villa del conte, LineaE029
 villa del conte, abbazia pisani, LineaE029
-abbazia pisani, s. martino di lupari via puccini, LineaE029
-s. martino di lupari via puccini, tombolo, LineaE029
+abbazia pisani, san martino di lupari via puccini, LineaE029
+san martino di lupari via puccini, tombolo, LineaE029
 tombolo, cittadella consorzio, LineaE029
 stra, noventana bar da marziano, LineaE073_1
 noventana bar da marziano, noventana chiesa, LineaE073_1
-noventana chiesa, noventa p via valmarana sp33, LineaE073_1
-noventa p via valmarana sp33, noventa piazzale bar rosso, LineaE073_1
+noventana chiesa, noventa piazzale via valmarana sp33, LineaE073_1
+noventa piazzale via valmarana sp33, noventa piazzale bar rosso, LineaE073_1
 noventa piazzale bar rosso, padova centro giotto, LineaE073_1
 padova centro giotto, padova stanga via venezia, LineaE073_1
 padova stanga via venezia, padova ospedale, LineaE073_1
@@ -670,16 +670,16 @@ padova ospedale, padova piazzale boschetti, LineaE073_1
 padova piazzale boschetti, padova fiat, LineaE073_1
 padova fiat, padova fiera, LineaE073_1
 padova fiera, padova autostazione, LineaE073_1
-conselve, s. pietro viminario, LineaE034N
-s. pietro viminario, pernumia, LineaE034N
+conselve, san pietro viminario, LineaE034N
+san pietro viminario, pernumia, LineaE034N
 pernumia, tribano, LineaE034N
 tribano, pozzonovo centro, LineaE034N
 pozzonovo centro, monselice fs, LineaE034N
 monselice fs, monselice autostazione, LineaE034N
 monselice autostazione, ca' oddo, LineaE034N
 ca' oddo, schiavonia ospedale, LineaE034N
-schiavonia ospedale, s. elena trattoria, LineaE034N
-s. elena trattoria, deserto d'este, LineaE034N
+schiavonia ospedale, san elena trattoria, LineaE034N
+san elena trattoria, deserto d'este, LineaE034N
 deserto d'este, este, LineaE034N
 este, castelbaldo, LineaE034N
 castelbaldo, palugana, LineaE034N
@@ -688,7 +688,7 @@ bresega, badia autostazione, LineaE034N
 badia autostazione, lendinara, LineaE034N
 lendinara, cinto euganeo, LineaE034N
 cinto euganeo, lozzo atestino, LineaE034N
-lozzo atestino, vo', LineaE034N
+lozzo atestino, via ', LineaE034N
 padova autostazione, padova fiera, LineaE041
 padova fiera, padova fiat, LineaE041
 padova fiat, padova stanga via venezia, LineaE041
@@ -699,14 +699,14 @@ busa di vigonza, peraga cacciane, LineaE041
 peraga cacciane, pionca, LineaE041
 pionca, codiverno, LineaE041
 codiverno, bv. bussedo interna, LineaE041
-bv. bussedo interna, cognaro strada provinciale . 88, LineaE041
-cognaro strada provinciale . 88, villanova, LineaE041
+bv. bussedo interna, cognaro strada provinciale 88, LineaE041
+cognaro strada provinciale 88, villanova, LineaE041
 villanova, bv. perotti, LineaE041
 bv. perotti, mussolini, LineaE041
 mussolini, borgoricco via gaffarello, LineaE041
-borgoricco via gaffarello, s. eufemia, LineaE041
-s. eufemia, s. angelo di s. maria di sala, LineaE041
-s. angelo di s. maria di sala, zeminiana chiesa, LineaE041
+borgoricco via gaffarello, san eufemia, LineaE041
+san eufemia, san angelo di san maria di sala, LineaE041
+san angelo di san maria di sala, zeminiana chiesa, LineaE041
 zeminiana chiesa, borgoricco banca san .10, LineaE041
 piazzola sul brenta, campo san martino centro, LineaE021_8
 campo san martino centro, campo san martino bivio, LineaE021_8
@@ -723,8 +723,8 @@ montagnana istituto alberghiero, montagnana viale fs, LineaE047
 montagnana viale fs, montagnana pta legnago, LineaE047
 montagnana pta legnago, montagnana pta vicenza, LineaE047
 anguillara, agna, LineaE033
-agna, s. siro chiesa, LineaE033
-s. siro chiesa, bagnoli di sopra, LineaE033
+agna, san siro chiesa, LineaE033
+san siro chiesa, bagnoli di sopra, LineaE033
 bagnoli di sopra, olmo, LineaE033
 olmo, candiana, LineaE033
 candiana, pontecasale, LineaE033
@@ -749,9 +749,9 @@ busa di vigonza, perarolo, LineaE060_Z-E060_V
 perarolo, vigonza, LineaE060_Z-E060_V
 vigonza, mellaredo, LineaE060_Z-E060_V
 mellaredo, caselle dei ruffi, LineaE060_Z-E060_V
-caselle dei ruffi, s. maria di sala, LineaE060_Z-E060_V
-s. maria di sala, treponti di s. maria di sala, LineaE060_Z-E060_V
-treponti di s. maria di sala, stigliano, LineaE060_Z-E060_V
+caselle dei ruffi, san maria di sala, LineaE060_Z-E060_V
+san maria di sala, treponti di san maria di sala, LineaE060_Z-E060_V
+treponti di san maria di sala, stigliano, LineaE060_Z-E060_V
 stigliano, bv. valli noale, LineaE060_Z-E060_V
 bv. valli noale, noale, LineaE060_Z-E060_V
 noale, moniego, LineaE060_Z-E060_V
@@ -791,11 +791,11 @@ padova fiat, padova stanga via venezia, LineeEME015Z-E015V
 padova stanga via venezia, padova centro giotto, LineeEME015Z-E015V
 padova centro giotto, padova san lazzaro i^ strada, LineeEME015Z-E015V
 padova san lazzaro i^ strada, padova allison i^ strada, LineeEME015Z-E015V
-padova allison i^ strada, padova z.i. sede tim- via .7^ strada, LineeEME015Z-E015V
-padova z.i. sede tim- via .7^ strada, padova z.i. peroni, LineeEME015Z-E015V
+padova allison i^ strada, padova z.i. sede tim- via 7^ strada, LineeEME015Z-E015V
+padova z.i. sede tim- via 7^ strada, padova z.i. peroni, LineeEME015Z-E015V
 padova z.i. peroni, padova z.i. via uruguay, LineeEME015Z-E015V
-padova z.i. via uruguay, padova z.i. cnr c. san stati uniti, LineeEME015Z-E015V
-padova z.i. cnr c. san stati uniti, olmo quadrivio, LineeEME015Z-E015V
+padova z.i. via uruguay, padova z.i. cnr corso stati uniti, LineeEME015Z-E015V
+padova z.i. cnr corso stati uniti, olmo quadrivio, LineeEME015Z-E015V
 olmo quadrivio, marghera autostrada, LineeEME015Z-E015V
 marghera autostrada, marghera via rizzardi, LineeEME015Z-E015V
 marghera via rizzardi, marghera agip, LineeEME015Z-E015V
@@ -814,8 +814,8 @@ fontanafredda, bv. fontanafredda, LineaE102
 bv. fontanafredda, lozzo atestino, LineaE102
 lozzo atestino, bv. valnogaredo, LineaE102
 bv. valnogaredo, bv. cortela', LineaE102
-bv. cortela', vo', LineaE102
-vo', zovon, LineaE102
+bv. cortela', via ', LineaE102
+via ', zovon, LineaE102
 zovon, teolo, LineaE102
 teolo, villa di teolo, LineaE102
 villa di teolo, treponti di teolo, LineaE102
@@ -824,8 +824,8 @@ cervarese santa croce, fossona municipio, LineaE102
 fossona municipio, montemerlo ex cinema, LineaE102
 montemerlo ex cinema, bresseo, LineaE102
 bresseo, praglia, LineaE102
-praglia, s. biagio, LineaE102
-s. biagio, abano istituti, LineaE102
+praglia, san biagio, LineaE102
+san biagio, abano istituti, LineaE102
 padova autostazione, padova piazzale boschetti, LineaE071
 padova piazzale boschetti, padova ospedale, LineaE071
 padova ospedale, padova stanga via venezia, LineaE071
@@ -836,8 +836,8 @@ camin centro, bion valli, LineaE071
 bion valli, tombelle, LineaE071
 tombelle, vigonovo, LineaE071
 vigonovo, celeseo, LineaE071
-celeseo, s. angelo di piove, LineaE071
-s. angelo di piove, piovega, LineaE071
+celeseo, san angelo di piove, LineaE071
+san angelo di piove, piovega, LineaE071
 piovega, piove di sacco autostazione, LineaE071
 piove di sacco autostazione, liettoli, LineaE071
 liettoli, campolongo maggiore, LineaE071
@@ -855,8 +855,8 @@ masera' interna, carpanedo, LineaE063
 carpanedo, albignasego, LineaE063
 albignasego, padova guizza, LineaE063
 padova guizza, padova bassanello, LineaE063
-padova bassanello, padova pontecorvo via .stoppato, LineaE063
-padova pontecorvo via .stoppato, padova ospedale, LineaE063
+padova bassanello, padova pontecorvo via stoppato, LineaE063
+padova pontecorvo via stoppato, padova ospedale, LineaE063
 padova ospedale, padova piazzale boschetti, LineaE063
 padova piazzale boschetti, padova autostazione, LineaE063
 padova autostazione, padova fiera, LineaE060_1
@@ -885,14 +885,14 @@ san michele b sp10, camposampiero istituto via puccini, LineaE098_2
 camposampiero istituto via puccini, camposampiero, LineaE098_2
 padova autostazione, padova stazione fs, LineaE0316
 padova stazione fs, padova giardini dell'arena, LineaE0316
-padova giardini dell'arena, padova c. san garibaldi, LineaE0316
-padova c. san garibaldi, padova teatro verdi, LineaE0316
-padova teatro verdi, padova c. san milano, LineaE0316
-padova c. san milano, padova via vicenza, LineaE0316
+padova giardini dell'arena, padova corso garibaldi, LineaE0316
+padova corso garibaldi, padova teatro verdi, LineaE0316
+padova teatro verdi, padova corso milano, LineaE0316
+padova corso milano, padova via vicenza, LineaE0316
 padova via vicenza, sarmeola c.c. le brentelle, LineaE0316
 sarmeola c.c. le brentelle, sarmeola viale piazzale, LineaE0316
-sarmeola viale piazzale, rubano via .borromeo imp.sport, LineaE0316
-rubano via .borromeo imp.sport, bosco di r. cimitero, LineaE0316
+sarmeola viale piazzale, rubano via borromeo imp.sport, LineaE0316
+rubano via borromeo imp.sport, bosco di r. cimitero, LineaE0316
 bosco di r. cimitero, bosco di rubano interna, LineaE0316
 bosco di rubano interna, rubano via toscana, LineaE0316
 rubano via toscana, rubano viale europa, LineaE0316
@@ -904,22 +904,22 @@ rubano bv. via nespolaro, villaguattera, LineaE0316
 villaguattera, mestrino, LineaE0316
 padova autostazione, padova stazione fs, LineaE018
 padova stazione fs, padova giardini dell'arena, LineaE018
-padova giardini dell'arena, padova c. san garibaldi, LineaE018
-padova c. san garibaldi, padova teatro verdi, LineaE018
-padova teatro verdi, padova c. san milano, LineaE018
-padova c. san milano, padova porta s. giovanni, LineaE018
-padova porta s. giovanni, tencarola, LineaE018
+padova giardini dell'arena, padova corso garibaldi, LineaE018
+padova corso garibaldi, padova teatro verdi, LineaE018
+padova teatro verdi, padova corso milano, LineaE018
+padova corso milano, padova porta san giovanni, LineaE018
+padova porta san giovanni, tencarola, LineaE018
 tencarola, feriole, LineaE018
-feriole, s. biagio, LineaE018
-s. biagio, praglia, LineaE018
+feriole, san biagio, LineaE018
+san biagio, praglia, LineaE018
 praglia, bresseo, LineaE018
 bresseo, montemerlo ex cinema, LineaE018
 montemerlo ex cinema, bv. treponti strada provinciale 20, LineaE018
 bv. treponti strada provinciale 20, treponti di teolo, LineaE018
 treponti di teolo, teolo, LineaE018
 teolo, zovon, LineaE018
-zovon, vo' centro, LineaE018
-vo' centro, bv. cortela', LineaE018
+zovon, via ' centro, LineaE018
+via ' centro, bv. cortela', LineaE018
 bv. cortela', bv. valnogaredo, LineaE018
 bv. valnogaredo, bv. fontanafredda, LineaE018
 bv. fontanafredda, fontanafredda, LineaE018
@@ -927,8 +927,8 @@ fontanafredda, cinto euganeo, LineaE018
 cinto euganeo, lozzo atestino, LineaE018
 lozzo atestino, valbona, LineaE018
 agna, anguillara, LineaE034
-anguillara, s. siro, LineaE034
-s. siro, bagnoli, LineaE034
+anguillara, san siro, LineaE034
+san siro, bagnoli, LineaE034
 bagnoli, olmo, LineaE034
 olmo, frapiero, LineaE034
 frapiero, candiana, LineaE034
@@ -946,25 +946,25 @@ due carrare santo stefano, cartura, LineaE034
 cartura, conselve, LineaE034
 conselve, tribano, LineaE034
 tribano, vanzo, LineaE034
-vanzo, s. pietro viminario, LineaE034
-s. pietro viminario, pernumia, LineaE034
-pernumia, battaglia via .maggiore, LineaE034
-battaglia via .maggiore, rivella, LineaE034
+vanzo, san pietro viminario, LineaE034
+san pietro viminario, pernumia, LineaE034
+pernumia, battaglia via maggiore, LineaE034
+battaglia via maggiore, rivella, LineaE034
 rivella, monselice autostazione, LineaE034
 monselice autostazione, motta, LineaE034
 motta, este, LineaE034
 padova autostazione, padova piazzale boschetti, LineaE016
 padova piazzale boschetti, padova ospedale, LineaE016
-padova ospedale, padova pontecorvo via .stoppato, LineaE016
-padova pontecorvo via .stoppato, padova bassanello, LineaE016
+padova ospedale, padova pontecorvo via stoppato, LineaE016
+padova pontecorvo via stoppato, padova bassanello, LineaE016
 padova bassanello, mandriola, LineaE016
 mandriola, ponte fabbrica, LineaE016
 ponte fabbrica, mezzavia, LineaE016
-mezzavia, battaglia via .maggiore, LineaE016
-battaglia via .maggiore, rivella, LineaE016
+mezzavia, battaglia via maggiore, LineaE016
+battaglia via maggiore, rivella, LineaE016
 rivella, monselice autostazione, LineaE016
-monselice autostazione, s. bortolo, LineaE016
-s. bortolo, bv. cavarzerane, LineaE016
+monselice autostazione, san bortolo, LineaE016
+san bortolo, bv. cavarzerane, LineaE016
 bv. cavarzerane, solesino, LineaE016
 solesino, ponte gorzone, LineaE016
 ponte gorzone, stanghella zuccherificio, LineaE016
@@ -973,26 +973,26 @@ boara pisani, rovigo, LineaE016
 barbarano, ponte di barbarano, LineaE019
 ponte di barbarano, lovolo, LineaE019
 lovolo, ponte tezze, LineaE019
-ponte tezze, vo' centro, LineaE019
-vo' centro, zovon esterna strada provinciale . 38, LineaE019
-zovon esterna strada provinciale . 38, carbonara, LineaE019
+ponte tezze, via ' centro, LineaE019
+via ' centro, zovon esterna strada provinciale 38, LineaE019
+zovon esterna strada provinciale 38, carbonara, LineaE019
 carbonara, bv. rovolon, LineaE019
 bv. rovolon, rovolon, LineaE019
 rovolon, bastia, LineaE019
 bastia, pozzetto, LineaE019
 pozzetto, cervarese santa croce, LineaE019
 cervarese santa croce, fossona, LineaE019
-fossona, s. martino della vanezza, LineaE019
-s. martino della vanezza, s. marco trambacche, LineaE019
-s. marco trambacche, saccolongo, LineaE019
+fossona, san martino della vanezza, LineaE019
+san martino della vanezza, san marco trambacche, LineaE019
+san marco trambacche, saccolongo, LineaE019
 saccolongo, magnaboschi, LineaE019
 magnaboschi, selvazzano centro, LineaE019
 selvazzano centro, tencarola, LineaE019
 tencarola, padova porta san giovanni, LineaE019
-padova porta san giovanni, padova c. san milano, LineaE019
-padova c. san milano, padova teatro verdi, LineaE019
-padova teatro verdi, padova c. san garibaldi, LineaE019
-padova c. san garibaldi, padova giardini dell'arena, LineaE019
+padova porta san giovanni, padova corso milano, LineaE019
+padova corso milano, padova teatro verdi, LineaE019
+padova teatro verdi, padova corso garibaldi, LineaE019
+padova corso garibaldi, padova giardini dell'arena, LineaE019
 padova giardini dell'arena, padova stazione fs, LineaE019
 padova stazione fs, padova autostazione, LineaE019
 este, rivadolmo, LineaE043
@@ -1006,9 +1006,9 @@ lozzo atestino, faedo, LineaE043
 faedo, valnogaredo centro, LineaE043
 valnogaredo centro, bv. valnogaredo, LineaE043
 bv. valnogaredo, bv. cortela', LineaE043
-bv. cortela', vo', LineaE043
-vo', zovon esterna strada provinciale . 38, LineaE043
-zovon esterna strada provinciale . 38, carbonara, LineaE043
+bv. cortela', via ', LineaE043
+via ', zovon esterna strada provinciale 38, LineaE043
+zovon esterna strada provinciale 38, carbonara, LineaE043
 carbonara, bv. rovolon, LineaE043
 bv. rovolon, rovolon, LineaE043
 rovolon, bastia, LineaE043
@@ -1022,11 +1022,11 @@ crowne plaza, limena municipio, LineaE021
 limena municipio, vaccarino, LineaE021
 vaccarino, curtarolo, LineaE021
 curtarolo, pieve di curtarolo, LineaE021
-pieve di curtarolo, campo s. martino centro, LineaE021
-campo s. martino centro, campo s. martino bivio, LineaE021
-campo s. martino bivio, paviola, LineaE021
-paviola, s. giorgio bosco, LineaE021
-s. giorgio bosco, facca, LineaE021
+pieve di curtarolo, campo san martino centro, LineaE021
+campo san martino centro, campo san martino bivio, LineaE021
+campo san martino bivio, paviola, LineaE021
+paviola, san giorgio bosco, LineaE021
+san giorgio bosco, facca, LineaE021
 facca, cittadella bv. fs, LineaE021
 cittadella bv. fs, cittadella porta treviso, LineaE021
 cittadella porta treviso, belvedere di tezze, LineaE021
@@ -1035,15 +1035,15 @@ cusinati, rosa', LineaE021
 rosa', bassano stazione fs, LineaE021
 padova autostazione, padova piazzale boschetti, LineaE073
 padova piazzale boschetti, padova ospedale, LineaE073
-padova ospedale, padova istituto . gramsci, LineaE073
-padova istituto . gramsci, padova stanga via venezia, LineaE073
+padova ospedale, padova istituto gramsci, LineaE073
+padova istituto gramsci, padova stanga via venezia, LineaE073
 padova stanga via venezia, padova centro giotto, LineaE073
 padova centro giotto, padova z.i. peroni, LineaE073
-padova z.i. peroni, noventa p. vill. s. antonio, LineaE073
-noventa p. vill. s. antonio, noventa p. centro fitness, LineaE073
-noventa p. centro fitness, noventa p. chiesa, LineaE073
-noventa p. chiesa, noventa p. municipio, LineaE073
-noventa p. municipio, noventana chiesa, LineaE073
+padova z.i. peroni, noventa piazzale vill. san antonio, LineaE073
+noventa piazzale vill. san antonio, noventa piazzale centro fitness, LineaE073
+noventa piazzale centro fitness, noventa piazzale chiesa, LineaE073
+noventa piazzale chiesa, noventa piazzale municipio, LineaE073
+noventa piazzale municipio, noventana chiesa, LineaE073
 noventana chiesa, noventana bar da marziano, LineaE073
 noventana bar da marziano, stra, LineaE073
 abano istituti, feriole, LineaE103
@@ -1054,16 +1054,16 @@ fossona, cervarese santa croce, LineaE103
 cervarese santa croce, bastia, LineaE103
 bastia, carbonara, LineaE103
 carbonara, zovon esterna san 38, LineaE103
-zovon esterna san 38, vo', LineaE103
+zovon esterna san 38, via ', LineaE103
 padova autostazione, padova piazzale boschetti, LineeE010-E013V
 padova piazzale boschetti, padova ospedale, LineeE010-E013V
-padova ospedale, padova pontecorvo via .stoppato, LineeE010-E013V
-padova pontecorvo via .stoppato, padova bassanello, LineeE010-E013V
+padova ospedale, padova pontecorvo via stoppato, LineeE010-E013V
+padova pontecorvo via stoppato, padova bassanello, LineeE010-E013V
 padova bassanello, mandriola, LineeE010-E013V
 mandriola, ponte fabbrica, LineeE010-E013V
 ponte fabbrica, mezzavia, LineeE010-E013V
-mezzavia, battaglia via .maggiore, LineeE010-E013V
-battaglia via .maggiore, rivella, LineeE010-E013V
+mezzavia, battaglia via maggiore, LineeE010-E013V
+battaglia via maggiore, rivella, LineeE010-E013V
 rivella, monselice autostazione, LineeE010-E013V
 monselice autostazione, motta, LineeE010-E013V
 motta, este, LineeE010-E013V
@@ -1071,23 +1071,23 @@ este, vighizzolo, LineeE010-E013V
 vighizzolo, deserto d'este, LineeE010-E013V
 deserto d'este, villa estense, LineeE010-E013V
 villa estense, carmignano d'este, LineeE010-E013V
-carmignano d'este, s. urbano, LineeE010-E013V
-s. urbano, ca' morosini, LineeE010-E013V
+carmignano d'este, san urbano, LineeE010-E013V
+san urbano, ca' morosini, LineeE010-E013V
 ca' morosini, lendinara, LineeE010-E013V
 padova autostazione, padova piazzale boschetti, LineeE011-E013V
 padova piazzale boschetti, padova ospedale, LineeE011-E013V
-padova ospedale, padova pontecorvo via .stoppato, LineeE011-E013V
-padova pontecorvo via .stoppato, padova bassanello, LineeE011-E013V
+padova ospedale, padova pontecorvo via stoppato, LineeE011-E013V
+padova pontecorvo via stoppato, padova bassanello, LineeE011-E013V
 padova bassanello, mandriola, LineeE011-E013V
 mandriola, ponte fabbrica, LineeE011-E013V
 ponte fabbrica, mezzavia, LineeE011-E013V
-mezzavia, battaglia via .maggiore, LineeE011-E013V
-battaglia via .maggiore, rivella, LineeE011-E013V
+mezzavia, battaglia via maggiore, LineeE011-E013V
+battaglia via maggiore, rivella, LineeE011-E013V
 rivella, monselice autostazione, LineeE011-E013V
 monselice autostazione, motta, LineeE011-E013V
 motta, este, LineeE011-E013V
-este, este manfredini strada provinciale . 91, LineeE011-E013V
-este manfredini strada provinciale . 91, carceri, LineeE011-E013V
+este, este manfredini strada provinciale 91, LineeE011-E013V
+este manfredini strada provinciale 91, carceri, LineeE011-E013V
 carceri, vighizzolo, LineeE011-E013V
 este, este manfredini san 10, LineaE013_2
 este manfredini san 10, ospedaletto euganeo, LineaE013_2
@@ -1121,18 +1121,18 @@ padova ospedale, padova piazzale boschetti, LineaE012-E013_V
 padova piazzale boschetti, padova autostazione, LineaE012-E013_V
 padova autostazione, padova piazzale boschetti, LineaE008-E013V
 padova piazzale boschetti, padova ospedale, LineaE008-E013V
-padova ospedale, padova pontecorvo via .stoppato, LineaE008-E013V
-padova pontecorvo via .stoppato, padova bassanello, LineaE008-E013V
+padova ospedale, padova pontecorvo via stoppato, LineaE008-E013V
+padova pontecorvo via stoppato, padova bassanello, LineaE008-E013V
 padova bassanello, mandriola, LineaE008-E013V
 mandriola, ponte fabbrica, LineaE008-E013V
 ponte fabbrica, mezzavia, LineaE008-E013V
-mezzavia, battaglia via .maggiore, LineaE008-E013V
-battaglia via .maggiore, rivella, LineaE008-E013V
+mezzavia, battaglia via maggiore, LineaE008-E013V
+battaglia via maggiore, rivella, LineaE008-E013V
 rivella, monselice autostazione, LineaE008-E013V
 monselice autostazione, motta, LineaE008-E013V
 motta, este, LineaE008-E013V
-este, este manfredini strada provinciale . 91, LineaE008-E013V
-este manfredini strada provinciale . 91, palugana, LineaE008-E013V
+este, este manfredini strada provinciale 91, LineaE008-E013V
+este manfredini strada provinciale 91, palugana, LineaE008-E013V
 palugana, ponso, LineaE008-E013V
 ponso, bresega, LineaE008-E013V
 bresega, valli mocenighe, LineaE008-E013V
@@ -1155,10 +1155,10 @@ padova giardini dell'arena, padova stazione fs, LineaE031
 padova stazione fs, padova autostazione, LineaE031
 padova autostazione, padova stazione fs, LineaE017
 padova stazione fs, padova giardini dell'arena, LineaE017
-padova giardini dell'arena, padova c. san garibaldi, LineaE017
-padova c. san garibaldi, padova teatro verdi, LineaE017
-padova teatro verdi, padova c. san milano, LineaE017
-padova c. san milano, padova porta san giovanni, LineaE017
+padova giardini dell'arena, padova corso garibaldi, LineaE017
+padova corso garibaldi, padova teatro verdi, LineaE017
+padova teatro verdi, padova corso milano, LineaE017
+padova corso milano, padova porta san giovanni, LineaE017
 padova porta san giovanni, tencarola, LineaE017
 tencarola, feriole, LineaE017
 feriole, san biagio, LineaE017
@@ -1171,17 +1171,17 @@ treponti di teolo, teolo, LineaE017
 teolo, castelnuovo, LineaE017
 castelnuovo, boccon centro, LineaE017
 boccon centro, zovon, LineaE017
-zovon, vo' centro, LineaE017
-vo' centro, vo' di sotto, LineaE017
-vo' di sotto, agugliaro, LineaE017
+zovon, via ' centro, LineaE017
+via ' centro, via ' di sotto, LineaE017
+via ' di sotto, agugliaro, LineaE017
 agugliaro, ponte alto, LineaE017
 ponte alto, noventa vicentina, LineaE017
 padova autostazione, padova stazione fs, LineaE080
 padova stazione fs, padova giardini dell'arena, LineaE080
-padova giardini dell'arena, padova c. san garibaldi, LineaE080
-padova c. san garibaldi, padova teatro verdi, LineaE080
-padova teatro verdi, padova c. san milano, LineaE080
-padova c. san milano, padova via vicenza, LineaE080
+padova giardini dell'arena, padova corso garibaldi, LineaE080
+padova corso garibaldi, padova teatro verdi, LineaE080
+padova teatro verdi, padova corso milano, LineaE080
+padova corso milano, padova via vicenza, LineaE080
 padova via vicenza, padova brentelle, LineaE080
 padova brentelle, rubano municipio, LineaE080
 rubano municipio, mestrino, LineaE080
@@ -1209,8 +1209,8 @@ tremignon, piazzola sul brenta, LineaE074
 piazzola sul brenta, presina, LineaE074
 presina, isola due albere, LineaE074
 isola due albere, grantorto, LineaE074
-grantorto, carmignano di brenta via .ospitale, LineaE074
-carmignano di brenta via .ospitale, carmignano di brenta, LineaE074
+grantorto, carmignano di brenta via ospitale, LineaE074
+carmignano di brenta via ospitale, carmignano di brenta, LineaE074
 carmignano di brenta, cittadella porta treviso, LineaE074
 padova autostazione, padova piazzale boschetti, LineaE006
 padova piazzale boschetti, padova ospedale, LineaE006
@@ -1231,12 +1231,12 @@ padova autostazione, padova fs j. avanzo, LineaE036
 padova fs j. avanzo, padova arcella, LineaE036
 padova arcella, castagnara, LineaE036
 castagnara, reschigliano, LineaE036
-reschigliano, s. andrea di campodarsego, LineaE036
-s. andrea di campodarsego, fiumicello, LineaE036
+reschigliano, san andrea di campodarsego, LineaE036
+san andrea di campodarsego, fiumicello, LineaE036
 fiumicello, bronzola tratt. scarin, LineaE036
 bronzola tratt. scarin, bronzola, LineaE036
-bronzola, s. michele delle badesse, LineaE036
-s. michele delle badesse, borgoricco banca san .10, LineaE036
+bronzola, san michele delle badesse, LineaE036
+san michele delle badesse, borgoricco banca san .10, LineaE036
 borgoricco banca san .10, borgoricco, LineaE036
 borgoricco, straelle, LineaE036
 straelle, massanzago, LineaE036
@@ -1257,8 +1257,8 @@ corte cittadella, cittadella consorzio, LineaE024
 cittadella consorzio, cittadella terminal, LineaE024
 montagnana porta vicenza, montagnana porta legnago, LineeE013Z-E013V
 montagnana porta legnago, montagnana viale fs, LineeE013Z-E013V
-montagnana viale fs, montagnana istituto . alberghiero, LineeE013Z-E013V
-montagnana istituto . alberghiero, montagnana porta padova, LineeE013Z-E013V
+montagnana viale fs, montagnana istituto alberghiero, LineeE013Z-E013V
+montagnana istituto alberghiero, montagnana porta padova, LineeE013Z-E013V
 montagnana porta padova, montagnana san zeno, LineeE013Z-E013V
 montagnana san zeno, megliadino san fidenzio, LineeE013Z-E013V
 megliadino san fidenzio, saletto di montagnana, LineeE013Z-E013V
@@ -1268,13 +1268,13 @@ este manfredini, este, LineeE013Z-E013V
 este, motta, LineeE013Z-E013V
 motta, monselice autostazione, LineeE013Z-E013V
 monselice autostazione, rivella, LineeE013Z-E013V
-rivella, battaglia via .maggiore, LineeE013Z-E013V
-battaglia via .maggiore, mezzavia, LineeE013Z-E013V
+rivella, battaglia via maggiore, LineeE013Z-E013V
+battaglia via maggiore, mezzavia, LineeE013Z-E013V
 mezzavia, ponte fabbrica, LineeE013Z-E013V
 ponte fabbrica, mandriola, LineeE013Z-E013V
 mandriola, padova bassanello, LineeE013Z-E013V
-padova bassanello, padova pontecorvo via .stoppato, LineeE013Z-E013V
-padova pontecorvo via .stoppato, padova ospedale, LineeE013Z-E013V
+padova bassanello, padova pontecorvo via stoppato, LineeE013Z-E013V
+padova pontecorvo via stoppato, padova ospedale, LineeE013Z-E013V
 padova ospedale, padova piazzale boschetti, LineeE013Z-E013V
 padova piazzale boschetti, padova prato della valle, LineeE013Z-E013V
 padova prato della valle, padova riv tito livio, LineeE013Z-E013V
@@ -1284,14 +1284,14 @@ padova giardini dell'arena, padova stazione fs, LineeE013Z-E013V
 padova stazione fs, padova autostazione, LineeE013Z-E013V
 padova autostazione, padova stazione fs, LineaE062
 padova stazione fs, padova giardini dell'arena, LineaE062
-padova giardini dell'arena, padova riv. ponti romani, LineaE062
-padova riv. ponti romani, padova riv. tito livio, LineaE062
-padova riv. tito livio, padova prato della valle, LineaE062
+padova giardini dell'arena, padova riv ponti romani, LineaE062
+padova riv ponti romani, padova riv tito livio, LineaE062
+padova riv tito livio, padova prato della valle, LineaE062
 padova prato della valle, padova piazzale boschetti, LineaE062
 padova piazzale boschetti, padova ospedale, LineaE062
-padova ospedale, padova pontecorvo via .stoppato, LineaE062
-padova pontecorvo via .stoppato, padova istituto . gramsci, LineaE062
-padova istituto . gramsci, padova bassanello, LineaE062
+padova ospedale, padova pontecorvo via stoppato, LineaE062
+padova pontecorvo via stoppato, padova istituto gramsci, LineaE062
+padova istituto gramsci, padova bassanello, LineaE062
 padova bassanello, padova guizza, LineaE062
 padova guizza, albignasego, LineaE062
 albignasego, carpanedo, LineaE062
@@ -1304,14 +1304,14 @@ cartura, conselve, LineaE062
 conselve, olmo, LineaE062
 olmo, bagnoli municipio, LineaE062
 bagnoli municipio, bagnoli di sopra, LineaE062
-bagnoli di sopra, s. siro, LineaE062
-s. siro, anguillara, LineaE062
+bagnoli di sopra, san siro, LineaE062
+san siro, anguillara, LineaE062
 anguillara, borgoforte, LineaE062
 borgoforte, agna, LineaE062
 padova autostazione, padova piazzale boschetti, LineeE001-E604
 padova piazzale boschetti, padova ospedale, LineeE001-E604
-padova ospedale, padova pontecorvo via .facciolati, LineeE001-E604
-padova pontecorvo via .facciolati, voltabarozzo, LineeE001-E604
+padova ospedale, padova pontecorvo via facciolati, LineeE001-E604
+padova pontecorvo via facciolati, voltabarozzo, LineeE001-E604
 voltabarozzo, roncaglia, LineeE001-E604
 roncaglia, ponte san nicolo', LineeE001-E604
 ponte san nicolo', legnaro, LineeE001-E604
@@ -1353,7 +1353,7 @@ piazzola sul brenta, grossa, LineaE040
 grossa, bv. isola carturo, LineaE040
 bv. isola carturo, gazzo, LineaE040
 gazzo, barche, LineaE040
-barche, s. pietro in gu', LineaE040
+barche, san pietro in gu', LineaE040
 abano istituti, tencarola, LineaE105
 tencarola, caselle (liceo g galilei), LineaE105
 caselle (liceo g galilei), sarmeola cc le brentelle, LineaE105
@@ -1365,8 +1365,8 @@ campodoro, villafranca bar, LineaE105
 villafranca bar, piazzola sul brenta, LineaE105
 padova autostazione, padova piazzale boschetti, LineaE076
 padova piazzale boschetti, padova ospedale, LineaE076
-padova ospedale, padova pontecorvo via .facciolati, LineaE076
-padova pontecorvo via .facciolati, voltabarozzo, LineaE076
+padova ospedale, padova pontecorvo via facciolati, LineaE076
+padova pontecorvo via facciolati, voltabarozzo, LineaE076
 voltabarozzo, roncaglia, LineaE076
 roncaglia, ponte san nicolo', LineaE076
 ponte san nicolo', legnaro, LineaE076

@@ -44,7 +44,7 @@ def correct_abbreviations(dictionary, orari_urbani = False):
         ("austazione padova", "padova autostazione "),
         ("v.le", "viale "),
         ("vle", "viale "),
-        ("v. ", " via "),
+        ("v.", " via "),
         ("v", "via "),
         ("riv.", "riv"),
         ("riviera", "riv"),
@@ -56,24 +56,25 @@ def correct_abbreviations(dictionary, orari_urbani = False):
         ("pte", "ponte"),
         ("p.zza", "piazza "),
         ("p.ta ", "porta "),
+        ("c.so", "corso"),
         ("s.p.", "strada provinciale "),
         ("s.p", "strada provinciale "),
         ("p.", "piazzale "),
         ("s.", "san "),
         ("staz fs", "stazione fs "),
         ("staz. fs", "stazione fs "),
+        ("ist.", "istituto "),
         ("ist", "istituto "),
-        ("ist.", "istituto ")
     ]) # aggiungo p boschetti qui?
     for linea, fermate in dictionary.items():
         for i in range(len(fermate)):
             for el in dizionario_riferimento.keys():
-                fermate[i] = re.sub(rf"\b{el}\b", f" {dizionario_riferimento[el]} ", fermate[i])
+                fermate[i] = re.sub(rf"\b{el}(?:\b|\s)", f" {dizionario_riferimento[el]} ", fermate[i])
     
     # aggiungi padova davanti ai nomi delle vie per render uguali a quelli degli orari extraurbani
     if orari_urbani:
         for linea, fermate in dictionary.items():
-            dictionary[linea] = ["padova " + fer if not fer.startswith("padova") and fer != "limena" else fer for fer in fermate]
+            dictionary[linea] = ["padova " + fer if not fer.startswith("padova") and fer[:6] != "limena" else fer for fer in fermate]
     
     return dictionary
 
