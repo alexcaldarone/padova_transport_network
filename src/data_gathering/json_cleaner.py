@@ -3,11 +3,11 @@ import os
 import pathlib
 from collections import OrderedDict
 import re
-from sklearn.pipeline import Pipeline, make_pipeline, FunctionTransformer
+from sklearn.pipeline import Pipeline, FunctionTransformer
 
 PATH = pathlib.Path.cwd() # directory from which file is called
 PATH_TO_RAW_DATA = pathlib.Path(str(PATH) + "/data/raw") # raw data directory
-PATH_TO_CLEAN_DATA = pathlib.Path(str(PATH) + "/data/clean")
+PATH_TO_CLEAN_DATA = pathlib.Path(str(PATH) + "/data/clean") # clean data directory
 
 def remove_white_spaces(dictionary):
     # removes white spaces at the beginning and end of a string
@@ -42,33 +42,34 @@ def correct_abbreviations(dictionary, orari_urbani = False):
     # standardizing text across all files
     dizionario_riferimento = {
         "austazione padova": "padova autostazione ",
-        " v.": " via ",
-        " v ": "via ",
-        " riv. ": "riv ",
+        "v.": " via ",
+        "v": "via ",
+        "riv.": "riv ",
         "riviera": "riv ",
         "p.le": "piazzale ",
         "p.te": "ponte",
         "p.": "piazzale ",
         "p.zza": "piazza ",
-        "p.ta": "porta ",
+        "p.ta ": "porta ",
         "s.": "san ",
         "v.le": "viale ",
         "staz fs": "stazione fs",
-        "staz. fs": "stazione fs"
+        "staz. fs": "stazione fs",
+        "ist": " istituto ",
+        "ist.": " istituto ",
+        "s.p": "strada provinciale",
+        "v.le": "viale",
+        "vle": "viale"
     }
     for linea, fermate in dictionary.items():
         for i in range(len(fermate)):
             for el in dizionario_riferimento.keys():
-                if el in fermate[i]:
-                    fermate[i] = fermate[i].replace(el, dizionario_riferimento[el])
-                    continue # avoid there being multiple changes to the string that may 
-                    # not be correct (maybe missing some cases?)
-            #print(fermate[i])
+                fermate[i] = re.sub(rf"\b{el}\b", dizionario_riferimento[el], fermate[i])
     
     # aggiungi padova davanti ai nomi delle vie per render uguali a quelli degli orari extraurbani
     if orari_urbani:
         for linea, fermate in dictionary.items():
-            dictionary[linea] = ["padova " + fer if not fer.startswith("padva") else fer for fer in fermate]
+            dictionary[linea] = ["padova " + fer if not fer.startswith("padova") and fer != "limena" else fer for fer in fermate]
     
     return dictionary
 
@@ -79,7 +80,7 @@ def clean_after_number_removal(dictionary):
     return dictionary
 
 def create_complete_edge_list(output_file, *args):
-    output_file.write("Source, Target, Weight\n")
+    output_file.write("Source, Target, Label\n")
     for dic in args:
         for linea, fermate in dic.items():
             for i in range(1, len(fermate)):
