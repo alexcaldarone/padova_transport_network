@@ -40,31 +40,35 @@ def remove_numbers(dictionary):
 
 def correct_abbreviations(dictionary, orari_urbani = False):
     # standardizing text across all files
-    dizionario_riferimento = {
-        "austazione padova": "padova autostazione ",
-        "v.": " via ",
-        "v": "via ",
-        "riv.": "riv ",
-        "riviera": "riv ",
-        "p.le": "piazzale ",
-        "p.te": "ponte",
-        "p.": "piazzale ",
-        "p.zza": "piazza ",
-        "p.ta ": "porta ",
-        "s.": "san ",
-        "v.le": "viale ",
-        "staz fs": "stazione fs",
-        "staz. fs": "stazione fs",
-        "ist": " istituto ",
-        "ist.": " istituto ",
-        "s.p": "strada provinciale",
-        "v.le": "viale",
-        "vle": "viale"
-    }
+    dizionario_riferimento = OrderedDict([
+        ("austazione padova", "padova autostazione "),
+        ("v.le", "viale "),
+        ("vle", "viale "),
+        ("v. ", " via "),
+        ("v", "via "),
+        ("riv.", "riv"),
+        ("riviera", "riv"),
+        ("pboschetti", "piazzale boschetti"),
+        ("p.boschetti", "piazzale boschetti"),
+        ("p.le", "piazzale "),
+        ("ple", "piazzale"),
+        ("p.te", "ponte "),
+        ("pte", "ponte"),
+        ("p.zza", "piazza "),
+        ("p.ta ", "porta "),
+        ("s.p.", "strada provinciale "),
+        ("s.p", "strada provinciale "),
+        ("p.", "piazzale "),
+        ("s.", "san "),
+        ("staz fs", "stazione fs "),
+        ("staz. fs", "stazione fs "),
+        ("ist", "istituto "),
+        ("ist.", "istituto ")
+    ]) # aggiungo p boschetti qui?
     for linea, fermate in dictionary.items():
         for i in range(len(fermate)):
             for el in dizionario_riferimento.keys():
-                fermate[i] = re.sub(rf"\b{el}\b", dizionario_riferimento[el], fermate[i])
+                fermate[i] = re.sub(rf"\b{el}\b", f" {dizionario_riferimento[el]} ", fermate[i])
     
     # aggiungi padova davanti ai nomi delle vie per render uguali a quelli degli orari extraurbani
     if orari_urbani:
@@ -76,6 +80,13 @@ def correct_abbreviations(dictionary, orari_urbani = False):
 def clean_after_number_removal(dictionary):
     for linea, fermate in dictionary.items():
         dictionary[linea] = [fer.rstrip(".").rstrip(".. ").rstrip() for fer in fermate]
+        #dictionary[linea] = [re.sub(r'\b.\b', " ", fer) for fer in fermate]
+    
+    return dictionary
+
+def final_whitespace_standardizer(dictionary):
+    for linea, fermate in dictionary.items():
+        dictionary[linea] =  [" ".join(fer.split()) for fer in fermate]
     
     return dictionary
 
@@ -102,6 +113,7 @@ if __name__ == "__main__":
     cleaner_after_number_removal = FunctionTransformer(clean_after_number_removal)
     abbv_correcter_extr = FunctionTransformer(correct_abbreviations, kw_args={"orari_urbani": False})
     abbv_correcter_urb = FunctionTransformer(correct_abbreviations, kw_args={"orari_urbani": True})
+    final_std = FunctionTransformer(final_whitespace_standardizer)
 
     pipe_urb = Pipeline(steps = [
         ("na", na_remover),
@@ -109,7 +121,8 @@ if __name__ == "__main__":
         ("remove duplicates", duplicate_remover),
         ("remove numbers", number_remover),
         ("clean after number remove", cleaner_after_number_removal),
-        ("abbreviations", abbv_correcter_urb)
+        ("abbreviations", abbv_correcter_urb),
+        ("final std", final_std)
     ])
 
     pipe_extr = Pipeline(steps = [
@@ -118,7 +131,8 @@ if __name__ == "__main__":
         ("remove duplicates", duplicate_remover),
         ("remove numbers", number_remover),
         ("clean after number remove", cleaner_after_number_removal),
-        ("abbreviations", abbv_correcter_extr)
+        ("abbreviations", abbv_correcter_extr),
+        ("final std", final_std)
     ])
 
     urbani_clean = pipe_urb.transform(urbani)
