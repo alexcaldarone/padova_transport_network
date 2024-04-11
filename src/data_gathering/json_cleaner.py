@@ -96,7 +96,7 @@ def create_complete_edge_list(output_file, *args):
     for dic in args:
         for linea, fermate in dic.items():
             for i in range(1, len(fermate)):
-                output_file.write(f"{fermate[i-1]}, {fermate[i]}, {linea}\n")
+                output_file.write(f"{fermate[i-1]},{fermate[i]},{linea}\n")
 
 if __name__ == "__main__":
     data_list = []
