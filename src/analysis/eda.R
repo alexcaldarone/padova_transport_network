@@ -1,7 +1,6 @@
-
 # File preparation --------------------------------------------------------
 rm(list=ls())
-#setwd("~/Universita/3_anno/metodi_statistici_big_data/progetto_git/src/analysis/")
+setwd("~/Universita/3_anno/metodi_statistici_big_data/progetto_git/")
 setwd("src/analysis/")
 
 set.seed(777)
@@ -9,6 +8,7 @@ set.seed(777)
 # Library imports ---------------------------------------------------------
 library(igraph)
 library(tidyverse)
+library(ggrepel)
 
 # Analisi esplorativa -----------------------------------------------------
 
@@ -65,7 +65,7 @@ grado.vicini <- knn(g.pesato,
                   weights = E(g.pesato)$weight)
 
 ggplot() +
-  aes(x = deg, y = grado.vicini$knn) +
+  aes(x = degree(g.pesato), y = grado.vicini$knn) +
   geom_point(shape = 1) +
   ggtitle("Rapporto tra grado del nodo e grado dei suoi vicni") +
   xlab("Grado del nodo") +
@@ -74,7 +74,7 @@ ggplot() +
   png("../../images/eda/deg_deg_vicini.png")
 
 ggplot() +
-  aes(x = log(deg), y = log(grado.vicini$knn)) +
+  aes(x = degree(g.pesato), y = log(grado.vicini$knn)) +
   geom_point(shape = 1) +
   ggtitle("Rapporto tra log-grado del nodo e log-grado dei suoi vicni") +
   xlab("Logaritmo del grado del nodo") +
@@ -103,6 +103,16 @@ ggplot() +
   ylab("Geado") +
   theme_bw() +
   png("../../images/eda/deg_bet.png")
+
+ggplot() +
+  aes(x = bet, y = degree(g), label = V(g)$name) +
+  geom_point() +
+  geom_label_repel() +
+  ggtitle("Rapporto tra grado e betweenness dei nodi") +
+  xlab("Betweenness") +
+  ylab("Geado") +
+  theme_bw() +
+  png("../../images/eda/deg_bet_labelled.png")
 
 # Closeness centrality dei vertici
 cl <- sort(closeness(g), decreasing = TRUE)
