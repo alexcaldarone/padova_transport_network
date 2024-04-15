@@ -1,0 +1,4 @@
+beautifulsoup4==4.10.0
+Requests==2.31.0
+scikit_learn==1.4.1.post1
+tabula_py==2.9.0
