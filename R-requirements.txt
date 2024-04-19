@@ -1,3 +1,6 @@
 tidyverse
 ggrepel
 igraph
+lpSolveAPI
+ergm
+intergraph
