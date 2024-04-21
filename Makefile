@@ -6,3 +6,5 @@ scrape_data:
 eda:
 	Rscript src/analysis/eda.R
 
+models:
+	Rscript src/analysis/modelling.R
