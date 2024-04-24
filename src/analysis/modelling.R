@@ -1,6 +1,6 @@
 # File preparation --------------------------------------------------------
 rm(list=ls())
-setwd("~/Universita/3_anno/metodi_statistici_big_data/progetto_git/src/analysis")
+setwd("src/analysis")
 # cambia 
 
 set.seed(42)
