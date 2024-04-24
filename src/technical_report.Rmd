@@ -6,9 +6,6 @@ author: "Alex John Caldarone, Patrick Lazzarin"
 ---
 
 ```{r, include = FALSE}
-# dopo cambia !
-setwd("~/Universita/3_anno/metodi_statistici_big_data/progetto_git/src")
-
 set.seed(42)
 ```
 
