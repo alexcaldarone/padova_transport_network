@@ -1,13 +1,13 @@
 # File preparation --------------------------------------------------------
 rm(list=ls())
-setwd("~/Universita/3_anno/metodi_statistici_big_data/progetto_git/")
 setwd("src/analysis/")
 
 set.seed(777)
 
 # Library imports ---------------------------------------------------------
 library(igraph)
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 library(ggrepel)
 
 # Analisi esplorativa -----------------------------------------------------
@@ -138,10 +138,3 @@ log(length(V(g)))
 
 # Transitività
 transitivity(g)
-
-
-#plot(cluster_louvain(g), g,
-#     vertex.size = 1,
-#     vertex.label = NA,
-#     edge.label = NA,
-#     layout = layout_with_gem(g))
