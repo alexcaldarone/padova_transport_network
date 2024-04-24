@@ -1,6 +1,9 @@
-tidyverse
+ggplot2
+dplyr
 ggrepel
 igraph
 lpSolveAPI
 ergm
 intergraph
+ergm.count
+pscl
