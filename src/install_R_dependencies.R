@@ -5,7 +5,7 @@
 # Define function to install libraries
 install_libraries_from_file <- function(file_path) {
   libs <- scan(file_path, what = character())
-  install.packages(libs, dependencies = TRUE)
+  install.packages(libs)
 }
 
 # Check if command-line argument is given
