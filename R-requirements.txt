@@ -7,3 +7,4 @@ ergm
 intergraph
 ergm.count
 pscl
+rmarkdown
