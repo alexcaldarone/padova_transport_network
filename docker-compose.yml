@@ -1,6 +1,0 @@
-version: "0.1"
-
-services:
-  msbd-project:
-    context: .
-    dockerfile: ./Dockerfile

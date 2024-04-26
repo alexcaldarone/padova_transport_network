@@ -62,7 +62,7 @@ make docker_show_report
 ```
 
 ### 2.2 Local
-If you do not want to build the Docker image for the project, once you have cloned the repo, you will have to install the necessary Python and R dependencies needed for the code to run.
+If you do not want to build the Docker image for the project, once you have cloned the repo you will have to install the necessary Python and R dependencies needed for the code to run.
 
 In order to reproduce the project you will need the following software:
 - Python 3
